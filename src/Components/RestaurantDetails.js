@@ -18,7 +18,7 @@ function RestaurantDetails() {
   }, [])
 
   const details=data.find((i)=>i.id == params.id)
-console.log("deta",details)
+  console.log("deta",details)
 
   return (
     <div>
